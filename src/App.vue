@@ -12,9 +12,9 @@
     <footer class="navbar-dark bg-primary text-white">
       <div class="container">
         <p class="text-center mb-0">
-          Explore our latest collection of laptops at
+          Explore our latest collection of notebooks at
           <a href="https://github.com/ittus/vuejs-firebase-shopping-cart" target="_blank" class="text-light">
-            Vue Laptop Store
+            Vue Notebook Shop
           </a>
         </p>
       </div>
@@ -58,6 +58,11 @@ header {
 main {
   flex: 1 1 auto;
   padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://catherineasquithgallery.com/uploads/posts/2023-01/1674279693_catherineasquithgallery-com-p-serii-fon-s-geometricheskim-risunkom-foto-22.png') center center no-repeat;
+  background-size: cover;
 }
 
 footer {
@@ -65,8 +70,6 @@ footer {
   padding: 10px 0;
   color: #666;
   font-size: 85%;
-  background-color: #343a40;
-  background: linear-gradient(to bottom, #343a40, #1a1e21);
 }
 
 footer a {
@@ -79,7 +82,6 @@ footer a:hover {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif; /* ваш текущий шрифт */
+  font-family: 'Open Sans', sans-serif;
 }
-
 </style>
