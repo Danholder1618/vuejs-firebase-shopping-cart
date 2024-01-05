@@ -48,6 +48,7 @@ export default {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -65,13 +66,20 @@ footer {
   color: #666;
   font-size: 85%;
   background-color: #343a40;
+  background: linear-gradient(to bottom, #343a40, #1a1e21);
 }
 
 footer a {
   color: #999;
+  transition: color 0.3s ease-in-out;
 }
 
 footer a:hover {
   color: #efefef;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif; /* ваш текущий шрифт */
+}
+
 </style>
